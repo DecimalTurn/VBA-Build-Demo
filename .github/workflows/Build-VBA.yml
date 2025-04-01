@@ -1,6 +1,3 @@
-  # https://github.com/durs/node-activex/blob/d7a13a0b030af1783779be3b39f4672d1f26569c/.github/workflows/ci.yml#L23
-# https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-nodejs
-
 name: Build VBA
 on:
   - workflow_dispatch
@@ -11,7 +8,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: "Build VBA-Enabled Workbook"
-        uses: DecimalTurn/VBA-Build@action
+        uses: DecimalTurn/VBA-Build@main
       - name: "Push content"
         run: |
           git config user.name "github-actions[bot]"
