@@ -1,6 +1,6 @@
 # VBA-Build-Demo
 
-A demo template for [VBA Build](https://github.com/marketplace/actions/vba-build)
+A demo template for [VBA-Build](https://github.com/marketplace/actions/vba-build)
 
 ## How to use
 
