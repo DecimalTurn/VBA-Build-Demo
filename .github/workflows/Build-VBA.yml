@@ -10,7 +10,7 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
       - name: "Build VBA-Enabled Workbook"
-        uses: DecimalTurn/VBA-Build@main
+        uses: DecimalTurn/VBA-Build@7192dd34a5149d959d2f3f79825290de14fa86d1 #v0.1.0
       - name: "Push content"
         run: |
           git config user.name "github-actions[bot]"
