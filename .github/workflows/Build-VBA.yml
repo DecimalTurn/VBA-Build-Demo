@@ -1,4 +1,4 @@
-# https://github.com/durs/node-activex/blob/d7a13a0b030af1783779be3b39f4672d1f26569c/.github/workflows/ci.yml#L23
+  # https://github.com/durs/node-activex/blob/d7a13a0b030af1783779be3b39f4672d1f26569c/.github/workflows/ci.yml#L23
 # https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-nodejs
 
 name: Build VBA
@@ -8,8 +8,7 @@ permissions:
   contents: write
 jobs:
   build:
-    runs-on:
-      os: [windows-latest]
+    runs-on: windows-latest
     steps:
       - name: "Build VBA-Enabled Workbook"
         uses: DecimalTurn/VBA-Build@action
