@@ -15,4 +15,5 @@ Once you’ve started the workflow, it may take a few seconds to appear on the p
 ## Example output
 
 Here's an example of how the workflow should run: https://github.com/DecimalTurn/VBA-Build-Demo/actions/runs/14204873813
+
 And the resulting commit to the repo: https://github.com/DecimalTurn/VBA-Build-Demo/commit/e32ad077a5fbce999e176761b4f7eb214450e8c4
