@@ -12,11 +12,12 @@ To try the demo yourself, follow these steps:
 
 ![image](https://github.com/user-attachments/assets/9c4f06c3-f32c-42bd-8d9f-4da3cc664730)
 
-Once you’ve started the workflow, it may take a few seconds to appear on the page—you can refresh to see it show up. Click on it to view the progress. Note that the Office installation step takes about 5 minutes, so you might have just enough time to grab a coffee. When it's done, the Action will have committed the generated `.xlsm` file to the root of the repo with the name `skeleton.xlsm`.
+Once you’ve started the workflow, it may take a few seconds to appear on the page—you can refresh to see it show up. Click on it to view the progress. Note that the Office installation step takes about 5 minutes, so you might have just enough time to grab a coffee. When it's done, the Action will have generated and zip the Office Documents as a build artifact that can be downloaded.
+
+![image](https://github.com/user-attachments/assets/298809db-6b3a-4b1c-b010-aca99f01786d)
+
 
 ## Example output
 
-Here's an example of how the workflow should run: [Action Logs](https://github.com/DecimalTurn/VBA-Build-Demo/actions/runs/14204873813) 
-<br>(Link valid for 30 days)
-
-And the resulting automated commit to the repo: [Commit e32ad07](https://github.com/DecimalTurn/VBA-Build-Demo/commit/e32ad077a5fbce999e176761b4f7eb214450e8c4)
+Here's an example of how the workflow should run: [Action Summary](https://github.com/DecimalTurn/VBA-Build-Demo/actions/runs/14561960950) 
+<br>(Link valid for 90 days)
