@@ -7,7 +7,7 @@ A demo template for [VBA-Build](https://github.com/marketplace/actions/vba-build
 To try the demo yourself, follow these steps:
 
 - Create a new repo by clicking **`Use this template`** in the top-right corner of the screen (you can even make it private if you prefer).
-- *(Optional)* Make edits to the VBA code located in `src/skeleton.xlsm/Modules/Module1.bas`.
+- *(Optional)* Make edits to the VBA code located in `src/`.
 - Start the workflow to build your workbook (see image below).
 
 ![image](https://github.com/user-attachments/assets/9c4f06c3-f32c-42bd-8d9f-4da3cc664730)
