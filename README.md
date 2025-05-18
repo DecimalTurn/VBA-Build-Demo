@@ -6,7 +6,7 @@ A demo template for [VBA-Build](https://github.com/marketplace/actions/vba-build
 
 To try the demo yourself, follow these steps:
 
-- Create a new repo by clicking **`Use this template`** in the top-right corner of the screen (you can even make it private if you prefer).
+- Create a new repo by clicking **`Use this template`** then **`Create a new repository`** in the top-right corner of the screen (you can even make it private if you prefer).
 - *(Optional)* Make edits to the VBA code located in `src/`.
 - Start the workflow to build your workbook (see image below).
 
