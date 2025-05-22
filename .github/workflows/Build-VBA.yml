@@ -16,7 +16,7 @@ jobs:
         id: build_vba
         uses: DecimalTurn/VBA-Build@0e9bb22735194c1d7d6ebe30367a623a17e64cc1 #v1.1.0
         with:
-          sourceDir: "./src"
+          source-dir: "./src"
         timeout-minutes: 10
       - name: "Display Chocolatey logs in case of Office install failure"
         if: failure() && steps.build_vba.outcome == 'failure'
