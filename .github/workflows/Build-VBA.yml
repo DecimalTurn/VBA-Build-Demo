@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
       - name: "Build VBA-Enabled Documents"
         id: build_vba
-        uses: DecimalTurn/VBA-Build@04981023d340eae3f9bc4c5a13f02d0506fe4ec4 #v1.0.0
+        uses: DecimalTurn/VBA-Build@0e9bb22735194c1d7d6ebe30367a623a17e64cc1 #v1.1.0
         with:
           sourceDir: "./src"
         timeout-minutes: 10
