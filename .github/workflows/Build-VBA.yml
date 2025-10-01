@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: "Build VBA-Enabled Documents"
         id: build_vba
         uses: DecimalTurn/VBA-Build@b9754c8a6c4e7aac10dd68bcc990ef7e2c8237fc #v1.4.0
