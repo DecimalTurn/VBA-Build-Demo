@@ -21,7 +21,7 @@ jobs:
         uses: DecimalTurn/VBA-Build@0e9bb22735194c1d7d6ebe30367a623a17e64cc1 #v1.1.0
         with:
           source-dir: "./src"
-        timeout-minutes: 10
+        timeout-minutes: 20
       - name: "Upload Build Artifact"
         uses: actions/upload-artifact@v4
         id: "upload"
@@ -34,6 +34,7 @@ jobs:
         with:
           subject-name: "VBA-Enabled-Documents"
           subject-digest: sha256:${{ steps.upload.outputs.artifact-digest }}
+
 
 
 
