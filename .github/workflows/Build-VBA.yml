@@ -1,6 +1,9 @@
 name: Build VBA
 on:
-  - workflow_dispatch
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   id-token: write
@@ -30,4 +33,5 @@ jobs:
         with:
           subject-name: "VBA-Enabled-Documents"
           subject-digest: sha256:${{ steps.upload.outputs.artifact-digest }}
+
 
