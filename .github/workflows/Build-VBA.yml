@@ -30,10 +30,12 @@ jobs:
           path: "./src/out/*"
           if-no-files-found: warn
       - name: "Attestation"
+        if: ${{ !github.event.repository.private }}
         uses: actions/attest-build-provenance@v2
         with:
           subject-name: "VBA-Enabled-Documents"
           subject-digest: sha256:${{ steps.upload.outputs.artifact-digest }}
+
 
 
 
