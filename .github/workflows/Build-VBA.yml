@@ -15,13 +15,18 @@ permissions:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2025
     steps:
       - name: "Checkout"
         uses: actions/checkout@v5
+      - name: "Setup VBA Runtime"
+        uses: DecimalTurn/setup-vba@75c6ce5e714186234ef9090c1c77537a60bd7339 # v0.1.1
+        with:
+          office-apps: "Excel,Word,PowerPoint"
+          install-office: "true"
       - name: "Build VBA-Enabled Documents"
         id: build_vba
-        uses: DecimalTurn/VBA-Build@b9754c8a6c4e7aac10dd68bcc990ef7e2c8237fc #v1.4.0
+        uses: DecimalTurn/VBA-Build@73d88e15e27d1e80aa402c60981175a491281d25 # v2.0.0
         with:
           source-dir: "./src"
         timeout-minutes: 20
