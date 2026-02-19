@@ -30,7 +30,7 @@ jobs:
         with:
           source-dir: "./src"
         timeout-minutes: 20
-      - name: "Upload Build Artifact"
+      - name: "Upload Build Artifacts"
         uses: actions/upload-artifact@v4
         id: "upload"
         with:
@@ -43,6 +43,7 @@ jobs:
         with:
           subject-name: "VBA-Enabled-Documents"
           subject-digest: sha256:${{ steps.upload.outputs.artifact-digest }}
+
 
 
 
