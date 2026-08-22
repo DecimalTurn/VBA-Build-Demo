@@ -1,0 +1,6 @@
+[submodule "VBA-Build"]
+	path = submodules/VBA-Build
+	url = https://github.com/DecimalTurn/VBA-Build
+[submodule "setup-vba"]
+	path = submodules/setup-vba
+	url = https://github.com/DecimalTurn/setup-vba
